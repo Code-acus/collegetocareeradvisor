@@ -64,8 +64,9 @@
 	<category>
         <pattern>CONFIRM ADVISING CHOICE</pattern>
         <template>Perfect! Let's get started.
-        <br/><br/>
-        <srai>PROMPT OPTIONS</srai></template>
+            <br/><br/>
+            <srai>PROMPT OPTIONS</srai>
+        </template>
     </category>
     
     <category>
