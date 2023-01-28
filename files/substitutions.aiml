@@ -5,7 +5,7 @@
 		<pattern>AFFIRMATION</pattern>
 		<template>
 			<random>
-				<li>Ok</li>
+				<li>OK</li>
 				<li>Perfect</li>
 				<li>Alright</li>
 			</random>
@@ -55,22 +55,22 @@
     </category>
     
     <category>
-        <pattern>BYE</pattern>
+        <pattern>^ BYE ^</pattern>
         <template><srai>GOODBYE</srai></template>
     </category>
     
     <category>
-        <pattern>CHEERS ^</pattern>
+        <pattern>^ CHEERS ^</pattern>
         <template><srai>GOODBYE</srai></template>
     </category>
     
     <category>
-        <pattern>CIAO ^</pattern>
+        <pattern>^ CIAO ^</pattern>
         <template><srai>GOODBYE</srai></template>
     </category>
     
     <category>
-        <pattern>SEE YOU LATER ALLIGATOR</pattern>
+        <pattern>^ SEE YOU LATER ALLIGATOR ^</pattern>
         <template>In a while, crocodile! Thank you for chatting</template>
     </category>
     
@@ -86,12 +86,12 @@
     </category>
     
     <category>
-        <pattern>PLEASE</pattern>
+        <pattern>^ PLEASE ^</pattern>
         <template><srai>YES</srai></template>
     </category>
     
     <category>
-        <pattern>SURE</pattern>
+        <pattern>^ SURE ^</pattern>
         <template><srai>YES</srai></template>
     </category>
     
@@ -156,14 +156,4 @@
         <template><srai><star index="1"/> SOFTWARE ENGINEER <star index="2"/></srai></template>
     </category>
 	
-	<!-- PLURALS -->
-	<!--<category>
-	    <pattern>_ DIFFERENCES ^</pattern>
-	    <template><srai><star/> DIFFERENCE <star index="2"/></srai></template>
-	</category>
-	
-	<category>
-	    <pattern>_ SKILLS ^</pattern>
-	    <template><srai><star/> SKILL <star index="2"/></srai></template>
-	</category>-->
 </aiml>

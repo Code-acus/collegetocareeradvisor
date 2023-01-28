@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <!-- UDC -->
-    <category>
-        <pattern>*</pattern>
-        <template>I'm not sure how to respond to that.</template>
-    </category>
+    
     
     <!-- GREETINGS -->
 	<category>
@@ -31,9 +28,14 @@
     </category>
 	    
     <category>
-        <pattern>^ YES ^</pattern>
+        <pattern>yes</pattern>
         <that>ARE YOU HERE FOR COMPUTER SCIENCE CAREER ADVISING</that>
         <template><srai>CONFIRM COUNSELING</srai></template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>I'm not sure how to respond to that.</template>
     </category>
     
     <category>
